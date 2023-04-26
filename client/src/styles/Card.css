@@ -1,0 +1,21 @@
+.card-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 20px 0 20px;
+  text-align: center;
+  font-size: 46px;
+  border: 2px solid darkgray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 5px black;
+  background-color: grey;
+}
